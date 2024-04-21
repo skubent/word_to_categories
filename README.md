@@ -27,16 +27,16 @@ Expected output:
 php solution1.php
 </summary>
 
-Meat pie : Food
-Bring me potato and cheese, please : Food
-Pets vitamin: Medicine
-A small amount of cooking rice : Common
-Electric chess : Common
-Healthy food : Common
-Toy for pet : Common
-A little present: Common
-Painkiller without prescription : Forbidden goods
-Some beer : Forbidden goods
+Meat pie : Food  
+Bring me potato and cheese, please : Food  
+Pets vitamin                       : Medicine   
+A small amount of cooking rice     : Common  
+Electric chess                     : Common  
+Healthy food                       : Common  
+Toy for pet                        : Common  
+A little present                   : Common  
+Painkiller without prescription    : Forbidden goods  
+Some beer                          : Forbidden goods  
 </details>
 
 ### Task 2
@@ -44,7 +44,7 @@ After launching the first version of the categorizer, it turned out that clients
 
 We decide to add following rules to our solution:
 
-- We count missing letter, added letter or changed letter as single typo.
+- We count missing, added or changed symbol (letter, punctuation or space) as single typo.
 - If the order can be assigned to exactly one category except "Common" - the algorithm should finish.
 - Otherwise we should try to find exactly one category assuming the client made one typo;
 - if unsuccessful we should try to find exactly one category assuming the client made two typos;
@@ -59,11 +59,11 @@ Expected output:
 php solution2.php
 </summary>
 
-Mead pie : Food
-Bring me potato and chese,pleas : Food
-Pets vitamins: Medicine
-A small amount of cookingrice : Common
-Healthy fot : Common
-Painkiller without prescript : Common
-Some bee hive : Forbidden goods
+Mead pie : Food  
+Bring me potato and chesepleas : Food  
+Pets vitamins                  : Medicine  
+A small amount of boiledrice   : Food  
+Painkiller without prescript   : Medicine  
+Some bee hive                  : Forbidden goods  
+Healthyfood                    : Common
 </details>

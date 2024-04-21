@@ -22,7 +22,6 @@ class Categories {
         ],
         'Pets' => [
             'Pet toy',
-            'Leash',
             'Collar',
             'Litter',
             'Aquarium',
