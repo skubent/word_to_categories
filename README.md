@@ -17,8 +17,8 @@ Instead, we have a set of rules to assign orders to categories:
 
 Your first task is implement method getCategoryTask1() in Categorizer class, using data from DataProvider->getFirstDataset() and lists from CategoriesProvider:
 - CategoriesProvider::getActiveCategories() - list of currently active categories
-- Categories::getRelatedPhrases() - list of words/phrases related to categories in format categoryName => [phrase1, phrase2, ...],
-- Categories::getExcludedPhrases() - list of words/phrases which that indicate what should be excluded from the categories in format categoryName => [phrase1, phrase2, ...]
+- CategoriesProvider::getRelatedPhrases() - list of words/phrases related to categories in format categoryName => [phrase1, phrase2, ...],
+- CategoriesProvider::getExcludedPhrases() - list of words/phrases which that indicate what should be excluded from the categories in format categoryName => [phrase1, phrase2, ...]
 
 Expected output:
 
